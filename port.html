@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portstyle.css">
+   <script src="port.js" language="javascript"></script>
+    <link rel="stylesheet" >
+</head>
+<body>
+    <!-- creating menu tabs & logo at top using html-->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#Education" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#Skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <br>
+
+    <!-- creating banner layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello,I m<br> <span>Hema</span></h2>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- creating about me layout in HTML-->
+    <section class="about" id="about">
+        <div class="heading">
+            <h1>
+            <p> <b>GET TO KNOW</b></p>
+            <i>ABOUT ME....</i></h1>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="hpro.jpg"a alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3> Welcome</h3>
+                <br>
+                   <p>Every person has their own unique story. Here is a glimpse of mine. <br>
+                 I am <b>Hema</b> from tenkasi,
+                  I have completed my <b>BSc</b> in <b>computer science</b> at st.Xaviers college in Palayamkottai with an aggregate of <b>75%</b>. 
+                  I am excited to begin my carrier in the field of IT. I look forward to putting my education and acquired skills to use.
+                   </p>
+                <div class="heading bottom">
+                    <a href="P.HEMA( Resume).docx" class="btn round">Downnload CV</a>
+                    <div class="bt">
+                        <b>Name: </b>Hema <br>
+                        <b>Age: </b> 22 <br>
+                    </div>
+                    <div A+class="bt">
+                        <b>Email: </b> hemakiruthi2001@gmail.com <br>
+                        <b>Location: </b> India
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- creating services layout in html-->
+    <section class="Education" id="Education">
+        <div class="heading">
+            <h2>EDUCATION DETAILS</h2>
+        </div>
+        <div class="content">
+            <div class="EducationBx">
+            <i class="fa fa-css3 fa-4x"></i> 
+            <h3>Standard 10th</h3>
+            <p>Completed my class <b>10th</b>  in <i>2017</i> at St.Michael's school with an percentage of <b>85</b>  </p>
+        </div>
+      </div>
+        <div class="content">
+            <div class="EducationBx">
+            <i class="fa fa-wordpress fa-4x"></i> 
+            <h3>Standard 12th</h3>
+            <p>I have Completed my class <b>12th</b>  in <i>2019</i> at St.Michael's school with an percentage of <b>65</b>  </p>
+        </div>
+      </div>
+        <div class="content">
+            <div class="EducationBx">
+            <i class="fa fa-drupal fa-4x"></i> 
+            <h3>Bachelor degree</h3>
+            <p>Completed <b>BSc</b> in <b>computer science</b> in <i>2022</i> at St.Xavier's college in Palayamkottai with an aggregate of <b>73.05</b> </p>
+        </div>
+        </div>
+    </section>
+<!--creating skill layout in html-->
+<section class="Skills" id="Skills">
+        <div class="heading">
+            <h2>SKILLS</h2>
+        </div>
+        <div class="content">
+            <div class="skillsBx">
+                <h2>COMPUTER SKILLS:</h2>
+           <img src="fullstack.jpg" height="200" width="250"/> 
+            <p>Python Full Stack Web Development</p>
+        </div>
+            </div>
+     <div class="content">
+            <div class="skillsBx">
+                <h2>LANGUAGE KNOWN: </h2>
+            <img src="com.png" alt="">
+                    <li>Tamil</li>
+                    <li>English</li>
+            </p>
+        </div>
+            </div>
+        <div class="content">
+            <div class="skillsBx">
+                <h2>HOBBIES:</h2>
+            <img src="hob.jpg" alt="">
+            <li>Reading books</li>
+            <li>Writing stories </li>                                                                                                            
+            <li>Drawing</li>
+            </div>
+            </div>   
+        <div class="content">
+            <div class="skillsBx">
+                <h2>GAMES:</h2>
+            <img src="game.jpg" alt="">
+            <li>Ball Badminton</li> 
+            </div>
+            </div>
+</section>
+ <!-- Creating Contact Layout in HTML -->
+ <section class="contact" id="contact">
+    
+    <div class="heading">
+        <p><b>CONTACT  ME</b></p>
+    </div>
+    <div class="content">
+        <div class="contactInfo">
+            <h3>Contact Info</h3>
+            <div class="contactInfoBx">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>5/2/12 Main Road K.P.Valasai,Tenkasi</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                         <i class='bx bxs-phone'></i>   
+                    </div>
+                    <div class="text">
+                        <h3>Phone no :</h3>
+                        <p>7904637985</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email Address</h3>
+                        <p>hemakiruthi2001@gmail.com</p>
+                    </div>
+                </div>
+                <br>
+                <h3>Social Connect</h3>
+                <div class="boxSocial">
+                    <div class="icon">
+                        <a href="https://www.facebook.com" target="_blank">
+                         <i class='bx bxl-facebook-square'></i>   
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.twitter.com" target="_blank">
+                         <i class='bx bxl-twitter'></i>  
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/" target="_blank">
+                         <i class='bx bxl-linkedin-square'></i>  
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/?hl=en" target="_blank">
+                          <i class='bx bxl-instagram'></i>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formBx">
+            <form>
+                <h3>Message Me</h3>
+                <input type="text" placeholder="Full Name" name="">
+                <input type="email" placeholder="Email" name="">
+                <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" name="">
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Creating Footer Layout in HTML-->
+    <footer class="copyright">
+        <p>&copy; 2020, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
